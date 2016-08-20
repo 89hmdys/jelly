@@ -406,7 +406,7 @@ func Len(object interface{}, length int) {
 // Returns whether the assertion was successful (true) or not (false).
 func True(value bool) {
 	if value != true {
-		Fail("Should be true")
+		Fail("Should be true,but ")
 	}
 }
 
